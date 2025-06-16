@@ -1,4 +1,6 @@
-import utils.VehicleStatus;
+package Units;
+
+import Utils.VehicleStatus;
 
 public class Vehicle {
     private int id;

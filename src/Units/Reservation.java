@@ -1,3 +1,8 @@
+package Units;
+
+import Units.User;
+import Units.Vehicle;
+
 public class Reservation {
     private Integer reservationId;
     private User user;

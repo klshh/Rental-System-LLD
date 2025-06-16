@@ -1,12 +1,12 @@
 # 🚗 Rental System (Java)
 
-A scalable and extensible **Vehicle Rental System** built using **Java**, designed to support a wide range of vehicle types and payment strategies. The system uses clean OOP principles and design patterns like **Strategy** and **Factory**, making it easy to extend and maintain.
+A scalable and extensible **Units.Vehicle Rental System** built using **Java**, designed to support a wide range of vehicle types and payment strategies. The system uses clean OOP principles and design patterns like **Strategy** and **Factory**, making it easy to extend and maintain.
 
 ---
 
 ## ✅ Features
 
-- 🚘 **Scalable Vehicle Types**  
+- 🚘 **Scalable Units.Vehicle Types**  
   Easily add new vehicle types (Car, Bike, Truck, etc.) without modifying core logic.
 
 - 💳 **Pluggable Payment Strategies**  
