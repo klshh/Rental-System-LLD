@@ -1,14 +1,14 @@
-package VehicleInventory;
+package src.VehicleInventory;
 
-import Units.Vehicle;
+import src.Product.Vehicle;
 
 import java.util.List;
 
-public class CarInventoryImpl implements IVehicleInventory{
+public class CarInventoryImpl implements VehicleInventory.IVehicleInventory {
 
     List<Vehicle> vehicles;
 
-    CarInventoryImpl(List<Vehicle> vehicles) {
+    public CarInventoryImpl(List<Vehicle> vehicles) {
         this.vehicles = vehicles;
     }
 
@@ -23,6 +23,6 @@ public class CarInventoryImpl implements IVehicleInventory{
 
     @Override
     public List<Vehicle> getListOfVehicle() {
-        return null;
+        return vehicles;
     }
 }

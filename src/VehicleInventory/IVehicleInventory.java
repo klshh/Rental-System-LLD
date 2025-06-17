@@ -1,6 +1,6 @@
 package VehicleInventory;
 
-import Units.Vehicle;
+import src.Product.Vehicle;
 
 import java.util.List;
 
